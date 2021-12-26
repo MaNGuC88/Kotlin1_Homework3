@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="8dp" />
+            <stroke
+                android:width="6dp"
+                android:color="@color/orange" />
+            <solid android:color="#80252E39" />
+        </shape>
+    </item>
+    <item
+        android:bottom="60dp"
+        android:drawable="@drawable/ic_tick_mark"
+        android:left="60dp"
+        android:right="60dp"
+        android:top="60dp" />
+</layer-list>
